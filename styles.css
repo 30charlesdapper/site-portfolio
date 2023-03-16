@@ -102,6 +102,7 @@ body {
     height: 72px;
     align-items: baseline;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .titulo-navegacao {

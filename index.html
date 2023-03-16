@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">  -->
     <title>Charles Dapper</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="root-container">
@@ -20,11 +21,17 @@
                 <div class="barra-navegacao">
                     <h1 class="titulo-navegacao">Charles Dapper</h1>
                     <div>
-                        <a class="links-navegacao" href="">Habilidades</a>
-                    <a class="links-navegacao" href="">Portfólio</a>
-                    <a class="links-navegacao" href="">Experiência</a>
+                        <a onclick="onClickScrollTo('section-abilities')" 
+                        class="links-navegacao" >Habilidades</a>
+
+                    <a onclick="onClickScrollTo('section-portfolio')"
+                     class="links-navegacao" >Portfólio</a>
+
+                    <a onclick="onClickScrollTo('section-experiences')"
+                     class="links-navegacao" >Experiência</a>
+
                     </div>
-                    <button >Contato</button>
+                    <button onclick="onClickScrollTo('section-contact')">Contato</button>
                 </div>
                 <div class="hero-info">
                     <div>
@@ -32,7 +39,7 @@
                         <p class="card">Mecanico automotivo desde 2005, com foco em manutenção e atendimento ao cliente.
                             Programador desde 2023 com foco em JavaScript e Solidity
                         </p>
-                        <button >Entrar em Contato</button>
+                        <button onclick="onClickScrollTo('section-contact')">Entrar em Contato</button>
                         <div class="hero-info-icons-container">
                             <a class="hero-info-icons-img" href="meusite.com.br"><img src="icons\Vector (1).png" alt="icon-facebook"></a>
                             <a class="hero-info-icons-img" href="meusite.com.br"><img src="icons\Vector.png" alt="icon-facebook"></a>
@@ -46,7 +53,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-abilities">
+            <section class="section-abilities" id="section-abilities">
                 <h2 >Habilidades</h2>
                 <h2 class="verde"> que domino</h2>
                 <div class="ability-cards-container">
@@ -108,7 +115,7 @@
                 </div>
             </section>
 
-            <section class="section-portfolio">
+            <section class="section-portfolio" id="section-portfolio">
                 <h2 >Portfólio</h2>
                 <h2 class="verde"> de projetos</h2>
 
@@ -180,7 +187,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-experiences">
+            <section class="section-experiences" id="section-experiences">
                 <h2 >Experiencias </h2>
                 <h2 class="verde"> de projetos</h2>
                 <div class="section-experiences-card">
@@ -223,7 +230,7 @@
                         </div>
                 </div>
             </section>
-            <section class="section-contact">
+            <section class="section-contact" id="section-contact">
                 <h2 >Como posso </h2>
                 <h2 class="verde"> te ajudar?</h2>
                 <p>
