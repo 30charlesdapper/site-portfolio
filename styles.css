@@ -27,6 +27,14 @@ body {
         max-width: 70%;
     }
 
+    p.card-info {
+        font-size: 16px;
+        
+        margin-top: 8px;
+        max-width: 50%;
+    }
+
+
     h1 {
         font-family: "Montserrat", sans-serif;
     }
@@ -135,6 +143,7 @@ body {
     font-size: 48px;
     font-weight: bold;
     margin: 0;
+    
 }
 
 .hero-info-subtitle {
@@ -142,11 +151,12 @@ body {
     line-height: 28px;
     max-width: 62%;
     margin-top: 16px;
+    
 }
 
 .hero-info-image {
-    height: 594px;
-    width: 442px;
+    height: 470px;
+    width: 300px;
     border-radius: 40px;
     border-color: green;
     border-width: 4px;
@@ -156,7 +166,7 @@ body {
 .hero-info-icons-container {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 35%;
     align-items: center;
     justify-content: space-between;
     margin-top: 24px;
@@ -345,8 +355,9 @@ body {
     margin-right: 8px;
 }
 
-p.help {
+a.help, p.help {
     margin-left: 10px;
+    color: #1e1e1e;
 }
 
 .footer-content {
