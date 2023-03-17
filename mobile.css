@@ -3,6 +3,11 @@
         text-align: center;
     }
     
+    h2 {
+        line-height: 38px;
+        font-size: 40px;
+    }
+
     .hero-info-title {
         padding-top: 60%;
         font-size: 1.8rem;
@@ -14,8 +19,8 @@
     }
 
     .content-container {
-        width: 96vw;
-        max-width: 96vw;
+        width: 94vw;
+        max-width: 94vw;
     }
 
     .links-navegacao {
@@ -63,9 +68,10 @@
     }
 
     .ability-cards-container {
+        row-gap: 16px;
         grid-template-columns: auto;
-        row-gap: 36px;
-        margin-top: 12px;
+        margin-top: 42px;
+        width: 100%;
     }
     
     .section-experiences-card {
@@ -80,6 +86,9 @@
 
     .section-abilities {
         padding-top: 70%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
     }
     
     .section-portfolio-card-links {
